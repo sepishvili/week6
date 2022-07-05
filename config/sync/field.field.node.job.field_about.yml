@@ -1,0 +1,21 @@
+uuid: fda7757c-70a7-43d2-b88c-985d1e124a21
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about
+    - node.type.job
+  module:
+    - text
+id: node.job.field_about
+field_name: field_about
+entity_type: node
+bundle: job
+label: about
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

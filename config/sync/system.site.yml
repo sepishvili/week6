@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 10ce4581-9335-4c72-bf6a-ab4f413df9f8
+name: sepo
+mail: sepishvili97@mail.ru
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /jobmodule
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

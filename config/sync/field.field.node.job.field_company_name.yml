@@ -1,0 +1,21 @@
+uuid: 84e004b0-e70d-4e4f-ba21-44fa6ee4ca8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company_name
+    - node.type.job
+  module:
+    - text
+id: node.job.field_company_name
+field_name: field_company_name
+entity_type: node
+bundle: job
+label: 'Company name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

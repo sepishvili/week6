@@ -1,0 +1,21 @@
+uuid: 1bc1a7ef-3391-4364-94d9-b847cbcabe58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_what_will_you_do
+    - node.type.job
+  module:
+    - text
+id: node.job.field_what_will_you_do
+field_name: field_what_will_you_do
+entity_type: node
+bundle: job
+label: what_will_you_do
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,7 @@
+mymodule.content:
+  path: '/jobmodule'
+  defaults:
+    _controller: '\Drupal\jobmodule\Controller\JobController::content'
+    _title: 'jobs'
+  requirements:
+    _permission: 'access content'

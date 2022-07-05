@@ -1,0 +1,30 @@
+uuid: 3a9a5381-e5db-4082-88bc-a4c73aa34514
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_duration
+field_name: field_duration
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Part Time'
+      label: 'Part Time'
+    -
+      value: 'Full Time'
+      label: 'Full Time'
+    -
+      value: Freelance
+      label: Freelance
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

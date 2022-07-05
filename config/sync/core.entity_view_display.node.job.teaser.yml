@@ -1,0 +1,38 @@
+uuid: 5bd87f2e-9dce-44ce-846a-6600238a2144
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.job.field_about
+    - field.field.node.job.field_company_name
+    - field.field.node.job.field_country
+    - field.field.node.job.field_date
+    - field.field.node.job.field_duration
+    - field.field.node.job.field_img
+    - field.field.node.job.field_job_name
+    - field.field.node.job.field_requirements
+    - field.field.node.job.field_what_will_you_do
+    - node.type.job
+  module:
+    - user
+id: node.job.teaser
+targetEntityType: node
+bundle: job
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_about: true
+  field_company_name: true
+  field_country: true
+  field_date: true
+  field_duration: true
+  field_img: true
+  field_job_name: true
+  field_requirements: true
+  field_what_will_you_do: true
